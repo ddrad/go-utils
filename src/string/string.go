@@ -1,7 +1,7 @@
 package string
 
 func Reverse(str string) string {
-	b := []byte(str)
+	b := []rune(str)
 
 	for i := 0; i < len(b)/2; i++ {
 		j := len(b) - i - 1
